@@ -1,14 +1,37 @@
 {
-  "memo": [
+  "category": [
     {
       "id": 1,
-      "title": "첫 메모",
-      "body": "처음으로 작성한 메모의 내용입니다."
+      "title": "study"
     },
     {
-      "title": "두 번째 메모",
-      "body": "두번째로 작성한 메모의 내용입니다.",
+      "title": "friend",
       "id": 2
+    }
+  ],
+  "todo": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "title": "리액트",
+      "body": "useState"
+    },
+    {
+      "id": 2,
+      "category_id": 1,
+      "title": "CSS",
+      "body": "animation"
+    },
+    {
+      "id": 3,
+      "category_id": 2,
+      "title": "무신사 살펴보기",
+      "body": "달콩이 선물 사기"
+    },
+    {
+      "title": "안녕하세요]",
+      "body": "",
+      "id": 4
     }
   ]
 }
